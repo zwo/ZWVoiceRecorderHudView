@@ -22,7 +22,7 @@ Start recording by passing the file path you want to save the audio archive to t
 - (void)startForFilePath:(NSString *)filePath;
 
 Step 3.
-Stop or cancel recording according to the user's interaction event.
+Stop or cancel recording according to the user‘s interaction event.
 - (void)stopRecording;
 - (void)cancelRecording;
 
