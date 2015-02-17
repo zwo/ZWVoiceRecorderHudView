@@ -9,7 +9,7 @@
 - (instancetype)initWithParentView:(UIView *)view;
 
 - (void)startForFilePath:(NSString *)filePath;
-- (void) stopRecording;
+- (void)stopRecording;
 - (void)cancelRecording;
 
 @end
