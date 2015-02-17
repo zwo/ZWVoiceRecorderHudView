@@ -1,0 +1,449 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		57915EB31A91E87C005F8A66 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 57915EB21A91E87C005F8A66 /* main.m */; };
+		57915EB61A91E87C005F8A66 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 57915EB51A91E87C005F8A66 /* AppDelegate.m */; };
+		57915EB91A91E87C005F8A66 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 57915EB81A91E87C005F8A66 /* ViewController.m */; };
+		57915EBC1A91E87C005F8A66 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 57915EBA1A91E87C005F8A66 /* Main.storyboard */; };
+		57915EBE1A91E87C005F8A66 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 57915EBD1A91E87C005F8A66 /* Images.xcassets */; };
+		57915EC11A91E87C005F8A66 /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = 57915EBF1A91E87C005F8A66 /* LaunchScreen.xib */; };
+		57915ECD1A91E87C005F8A66 /* ZWVoiceRecorderHudViewDemoTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 57915ECC1A91E87C005F8A66 /* ZWVoiceRecorderHudViewDemoTests.m */; };
+		57915ED91A91EAC0005F8A66 /* ZWVoiceRecorderHudView.m in Sources */ = {isa = PBXBuildFile; fileRef = 57915ED81A91EAC0005F8A66 /* ZWVoiceRecorderHudView.m */; };
+		57915EDC1A9314A4005F8A66 /* ZWAudioPlayer.m in Sources */ = {isa = PBXBuildFile; fileRef = 57915EDB1A9314A4005F8A66 /* ZWAudioPlayer.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		57915EC71A91E87C005F8A66 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 57915EA51A91E87B005F8A66 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 57915EAC1A91E87B005F8A66;
+			remoteInfo = ZWVoiceRecorderHudViewDemo;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		57915EAD1A91E87C005F8A66 /* ZWVoiceRecorderHudViewDemo.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = ZWVoiceRecorderHudViewDemo.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		57915EB11A91E87C005F8A66 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		57915EB21A91E87C005F8A66 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		57915EB41A91E87C005F8A66 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		57915EB51A91E87C005F8A66 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		57915EB71A91E87C005F8A66 /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		57915EB81A91E87C005F8A66 /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		57915EBB1A91E87C005F8A66 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		57915EBD1A91E87C005F8A66 /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
+		57915EC01A91E87C005F8A66 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = Base; path = Base.lproj/LaunchScreen.xib; sourceTree = "<group>"; };
+		57915EC61A91E87C005F8A66 /* ZWVoiceRecorderHudViewDemoTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = ZWVoiceRecorderHudViewDemoTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		57915ECB1A91E87C005F8A66 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		57915ECC1A91E87C005F8A66 /* ZWVoiceRecorderHudViewDemoTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ZWVoiceRecorderHudViewDemoTests.m; sourceTree = "<group>"; };
+		57915ED71A91EAC0005F8A66 /* ZWVoiceRecorderHudView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = ZWVoiceRecorderHudView.h; path = ../../ZWVoiceRecorderHudView.h; sourceTree = "<group>"; };
+		57915ED81A91EAC0005F8A66 /* ZWVoiceRecorderHudView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = ZWVoiceRecorderHudView.m; path = ../../ZWVoiceRecorderHudView.m; sourceTree = "<group>"; };
+		57915EDA1A9314A4005F8A66 /* ZWAudioPlayer.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ZWAudioPlayer.h; sourceTree = "<group>"; };
+		57915EDB1A9314A4005F8A66 /* ZWAudioPlayer.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ZWAudioPlayer.m; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		57915EAA1A91E87B005F8A66 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		57915EC31A91E87C005F8A66 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		57915EA41A91E87B005F8A66 = {
+			isa = PBXGroup;
+			children = (
+				57915EAF1A91E87C005F8A66 /* ZWVoiceRecorderHudViewDemo */,
+				57915EC91A91E87C005F8A66 /* ZWVoiceRecorderHudViewDemoTests */,
+				57915EAE1A91E87C005F8A66 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		57915EAE1A91E87C005F8A66 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				57915EAD1A91E87C005F8A66 /* ZWVoiceRecorderHudViewDemo.app */,
+				57915EC61A91E87C005F8A66 /* ZWVoiceRecorderHudViewDemoTests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		57915EAF1A91E87C005F8A66 /* ZWVoiceRecorderHudViewDemo */ = {
+			isa = PBXGroup;
+			children = (
+				57915ED61A91EAA5005F8A66 /* VoiceRecorderHudView */,
+				57915EB41A91E87C005F8A66 /* AppDelegate.h */,
+				57915EB51A91E87C005F8A66 /* AppDelegate.m */,
+				57915EB71A91E87C005F8A66 /* ViewController.h */,
+				57915EB81A91E87C005F8A66 /* ViewController.m */,
+				57915EBA1A91E87C005F8A66 /* Main.storyboard */,
+				57915EBD1A91E87C005F8A66 /* Images.xcassets */,
+				57915EBF1A91E87C005F8A66 /* LaunchScreen.xib */,
+				57915EB01A91E87C005F8A66 /* Supporting Files */,
+				57915EDA1A9314A4005F8A66 /* ZWAudioPlayer.h */,
+				57915EDB1A9314A4005F8A66 /* ZWAudioPlayer.m */,
+			);
+			path = ZWVoiceRecorderHudViewDemo;
+			sourceTree = "<group>";
+		};
+		57915EB01A91E87C005F8A66 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				57915EB11A91E87C005F8A66 /* Info.plist */,
+				57915EB21A91E87C005F8A66 /* main.m */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		57915EC91A91E87C005F8A66 /* ZWVoiceRecorderHudViewDemoTests */ = {
+			isa = PBXGroup;
+			children = (
+				57915ECC1A91E87C005F8A66 /* ZWVoiceRecorderHudViewDemoTests.m */,
+				57915ECA1A91E87C005F8A66 /* Supporting Files */,
+			);
+			path = ZWVoiceRecorderHudViewDemoTests;
+			sourceTree = "<group>";
+		};
+		57915ECA1A91E87C005F8A66 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				57915ECB1A91E87C005F8A66 /* Info.plist */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		57915ED61A91EAA5005F8A66 /* VoiceRecorderHudView */ = {
+			isa = PBXGroup;
+			children = (
+				57915ED71A91EAC0005F8A66 /* ZWVoiceRecorderHudView.h */,
+				57915ED81A91EAC0005F8A66 /* ZWVoiceRecorderHudView.m */,
+			);
+			name = VoiceRecorderHudView;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		57915EAC1A91E87B005F8A66 /* ZWVoiceRecorderHudViewDemo */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 57915ED01A91E87C005F8A66 /* Build configuration list for PBXNativeTarget "ZWVoiceRecorderHudViewDemo" */;
+			buildPhases = (
+				57915EA91A91E87B005F8A66 /* Sources */,
+				57915EAA1A91E87B005F8A66 /* Frameworks */,
+				57915EAB1A91E87B005F8A66 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = ZWVoiceRecorderHudViewDemo;
+			productName = ZWVoiceRecorderHudViewDemo;
+			productReference = 57915EAD1A91E87C005F8A66 /* ZWVoiceRecorderHudViewDemo.app */;
+			productType = "com.apple.product-type.application";
+		};
+		57915EC51A91E87C005F8A66 /* ZWVoiceRecorderHudViewDemoTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 57915ED31A91E87C005F8A66 /* Build configuration list for PBXNativeTarget "ZWVoiceRecorderHudViewDemoTests" */;
+			buildPhases = (
+				57915EC21A91E87C005F8A66 /* Sources */,
+				57915EC31A91E87C005F8A66 /* Frameworks */,
+				57915EC41A91E87C005F8A66 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				57915EC81A91E87C005F8A66 /* PBXTargetDependency */,
+			);
+			name = ZWVoiceRecorderHudViewDemoTests;
+			productName = ZWVoiceRecorderHudViewDemoTests;
+			productReference = 57915EC61A91E87C005F8A66 /* ZWVoiceRecorderHudViewDemoTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		57915EA51A91E87B005F8A66 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0610;
+				ORGANIZATIONNAME = Victor;
+				TargetAttributes = {
+					57915EAC1A91E87B005F8A66 = {
+						CreatedOnToolsVersion = 6.1;
+					};
+					57915EC51A91E87C005F8A66 = {
+						CreatedOnToolsVersion = 6.1;
+						TestTargetID = 57915EAC1A91E87B005F8A66;
+					};
+				};
+			};
+			buildConfigurationList = 57915EA81A91E87B005F8A66 /* Build configuration list for PBXProject "ZWVoiceRecorderHudViewDemo" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 57915EA41A91E87B005F8A66;
+			productRefGroup = 57915EAE1A91E87C005F8A66 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				57915EAC1A91E87B005F8A66 /* ZWVoiceRecorderHudViewDemo */,
+				57915EC51A91E87C005F8A66 /* ZWVoiceRecorderHudViewDemoTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		57915EAB1A91E87B005F8A66 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				57915EBC1A91E87C005F8A66 /* Main.storyboard in Resources */,
+				57915EC11A91E87C005F8A66 /* LaunchScreen.xib in Resources */,
+				57915EBE1A91E87C005F8A66 /* Images.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		57915EC41A91E87C005F8A66 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		57915EA91A91E87B005F8A66 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				57915ED91A91EAC0005F8A66 /* ZWVoiceRecorderHudView.m in Sources */,
+				57915EB91A91E87C005F8A66 /* ViewController.m in Sources */,
+				57915EB61A91E87C005F8A66 /* AppDelegate.m in Sources */,
+				57915EDC1A9314A4005F8A66 /* ZWAudioPlayer.m in Sources */,
+				57915EB31A91E87C005F8A66 /* main.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		57915EC21A91E87C005F8A66 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				57915ECD1A91E87C005F8A66 /* ZWVoiceRecorderHudViewDemoTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		57915EC81A91E87C005F8A66 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 57915EAC1A91E87B005F8A66 /* ZWVoiceRecorderHudViewDemo */;
+			targetProxy = 57915EC71A91E87C005F8A66 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		57915EBA1A91E87C005F8A66 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				57915EBB1A91E87C005F8A66 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		57915EBF1A91E87C005F8A66 /* LaunchScreen.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				57915EC01A91E87C005F8A66 /* Base */,
+			);
+			name = LaunchScreen.xib;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		57915ECE1A91E87C005F8A66 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.1;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		57915ECF1A91E87C005F8A66 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = YES;
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.1;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		57915ED11A91E87C005F8A66 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = ZWVoiceRecorderHudViewDemo/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 6.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		57915ED21A91E87C005F8A66 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = ZWVoiceRecorderHudViewDemo/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 6.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		57915ED41A91E87C005F8A66 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+				);
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = ZWVoiceRecorderHudViewDemoTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/ZWVoiceRecorderHudViewDemo.app/ZWVoiceRecorderHudViewDemo";
+			};
+			name = Debug;
+		};
+		57915ED51A91E87C005F8A66 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = ZWVoiceRecorderHudViewDemoTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/ZWVoiceRecorderHudViewDemo.app/ZWVoiceRecorderHudViewDemo";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		57915EA81A91E87B005F8A66 /* Build configuration list for PBXProject "ZWVoiceRecorderHudViewDemo" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				57915ECE1A91E87C005F8A66 /* Debug */,
+				57915ECF1A91E87C005F8A66 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		57915ED01A91E87C005F8A66 /* Build configuration list for PBXNativeTarget "ZWVoiceRecorderHudViewDemo" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				57915ED11A91E87C005F8A66 /* Debug */,
+				57915ED21A91E87C005F8A66 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		57915ED31A91E87C005F8A66 /* Build configuration list for PBXNativeTarget "ZWVoiceRecorderHudViewDemoTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				57915ED41A91E87C005F8A66 /* Debug */,
+				57915ED51A91E87C005F8A66 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 57915EA51A91E87B005F8A66 /* Project object */;
+}
