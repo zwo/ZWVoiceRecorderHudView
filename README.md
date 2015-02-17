@@ -27,7 +27,7 @@ Stop or cancel recording according to the user's interaction event.
 - (void)cancelRecording;
 
 Optional.
-You can tweak the recording parameters in ZWVoiceRecorderHudView.m, please see Apple Doc for more.
+You can tweak the recording parameters in `ZWVoiceRecorderHudView.m`, please see Apple Doc for more.
 NSMutableDictionary * recordSetting = [NSMutableDictionary dictionary];
 [recordSetting setValue :[NSNumber numberWithInt:kAudioFormatAppleIMA4] forKey:AVFormatIDKey];
 [recordSetting setValue:[NSNumber numberWithFloat:16000.0] forKey:AVSampleRateKey];
